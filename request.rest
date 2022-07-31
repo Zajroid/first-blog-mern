@@ -1,2 +1,16 @@
 GET http://localhost:5100/
 
+###
+
+POST http://localhost:5100/auth/login
+Content-Type: application/json
+
+{
+    "email": "text@test.ru",
+    "fullName": "Petya A",
+    "password": "12345"
+}
+
+
+
+###
